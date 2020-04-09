@@ -1,0 +1,11 @@
+discovery.type: single-node
+cluster.name: "docker-cluster"
+node.name: "docker-single-node"
+network.host: 0.0.0.0
+
+http.cors.enabled: true
+http.cors.allow-origin: true
+http.cors.allow-headers: true
+xpack.license.self_generated.type: trial
+xpack.security.enabled: true
+xpack.monitoring.collection.enabled: true
